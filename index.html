@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qazaqstan</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth@50;100&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+    <style>
+        :root {
+            --global-font-size: 15px;
+            --global-line-height: 1.4em;
+            --global-space: 10px;
+            --font-stack: 'Inconsolata', monospace;
+            --mono-font-stack: 'Inconsolata', monospace;
+            --background-color: #222225;
+            --page-width: 60em;
+            --font-color: #e8e9ed;
+            --invert-font-color: #222225;
+            --secondary-color: #a3abba;
+            --tertiary-color: #a3abba;
+            --primary-color: #62c4ff;
+            --error-color: #ff3c74;
+            --progress-bar-background: #3f3f44;
+            --progress-bar-fill: #62c4ff;
+            --code-bg-color: #3f3f44;
+            --input-style: solid;
+            --display-h1-decoration: none;
+        }
+        img {
+            height: 300px;
+            object-fit: contain;
+        }
+        audio {
+            width: 100%;
+        }
+        table th {
+            width: 25%;
+        }
+        table td {
+            width: 45%;
+        }
+        .lyrics pre {
+            border: none;
+            color: var(--font-color);
+        }
+        .lyrics td, .lyrics th {
+            width: auto;
+            border-color: var(--secondary-color);
+        }
+        .lyrics th {
+            font-weight: normal;
+        }
+        .clearfix {
+            zoom: 1;
+        }
+        .clearfix:before,
+        .clearfix:after {
+            content: "";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body class="terminal">
+    <div class="container">
+        <!-- Navigation -->
+        <section>
+            <div class="terminal-nav" id="menu">
+                <div class="terminal-logo">
+                    <div class="logo terminal-prompt">
+                        <a href="#" class="no-style">Qazaqstan</a>
+                    </div>
+                </div>
+                <nav class="terminal-menu">
+                    <ul>
+                        <li><a class="menu-item" href="#flag">Flag</a></li>
+                        <li><a class="menu-item" href="#emblem">Emblem</a></li>
+                        <li><a class="menu-item" href="#anthem">Anthem</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <header>
+                <h2 id="stats">Statistic</h2>
+            </header>
+            <!-- Gov -->
+            <table>
+                <tbody>
+                    <tr>
+                        <th>President</th>
+                        <td>Kassym-Jomart Tokayev</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Lang -->
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Official languages</th>
+                        <td>Kazakh</td>
+                    </tr>
+                    <tr>
+                        <th>Co-official</th>
+                        <td>Russian</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Area -->
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Area</th>
+                        <td>2,724,900 km2</td>
+                        <td><a href="https://www.openstreetmap.org/relation/214665">9th</a></td>
+                    </tr>
+                    <tr>
+                        <th>Water</th>
+                        <td colspan="2">1.7 %</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- City -->
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Capital</th>
+                        <td>Nur-Sultan</td>
+                        <td><a href="https://www.openstreetmap.org/relation/3087156">51°10′N - 71°26′E</a></td>
+                    </tr>
+                    <tr>
+                        <th>Largest city</th>
+                        <td>Almaty</td>
+                        <td><a href="https://www.openstreetmap.org/relation/2465058">43°16′39″N - 76°53′45″E</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Other -->
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Population</th>
+                        <td>19,082,467</td>
+                        <td>2021 estimate</td>
+                    </tr>
+                    <tr>
+                        <th>Density</th>
+                        <td>7/km2</td>
+                        <td>236th</td>
+                    </tr>
+                    <tr>
+                        <th>Time zone</th>
+                        <td>UTC +5 / +6</td>
+                        <td>West / East</td>
+                    </tr>
+                    <tr>
+                        <th>Currency</th>
+                        <td>Tenge</td>
+                        <td>₸ / KZT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <!-- Flag -->
+        <section>
+            <header><h2 id="flag">Flag</h2></header>
+            <figure>
+                <img src="./assets/flag.svg" alt="Flag of Kazakshtan" title="Flag of Kazakshtan">
+                <!-- <figcaption>Flag</figcaption> -->
+            </figure>
+        </section>
+        <hr>
+        <!-- Emblem -->
+        <section>
+            <header><h2 id="emblem">Emblem</h2></header>
+            <figure>
+                <img src="./assets/emblem.svg" alt="Emblem of Kazakshtan" title="Emblem of Kazakshtan">
+                <!-- <figcaption>Emblem</figcaption> -->
+            </figure>
+        </section>
+        <hr>
+        <!-- Anthem -->
+        <section>
+            <header><h2 id="anthem">Anthem</h2></header>
+            <figure>
+                <audio controls>
+                    <source src="./assets/anthem.ogg" type="audio/ogg; codecs=vorbis">
+                    Тег audio не поддерживается вашим браузером. 
+                </audio>
+                <!-- <figcaption>Anthem</figcaption> -->
+            </figure>
+        </section>
+        <hr>
+        <section>
+            <header>
+                <h2 id="lyrics">Lyrics</h2>
+            </header>
+            <table class="lyrics">
+                <caption>
+                    <b>National Anthem of Kazakhstan - 2006</b>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Cyrillic</th>
+                        <th>Latin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><pre>
+<b>I</b>
+Алтын күн аспаны,
+Алтын дән даласы,
+Ерліктің дастаны –
+Еліме қарашы!
+Ежелден ер деген,
+Даңқымыз шықты ғой,
+Намысын бермеген,
+Қазағым мықты ғой!
+
+<b>Қайырмасы:</b>
+Менің елім, менің елім,
+Гүлің болып егілемін,
+Жырың болып төгілемін, елім!
+Туған жерім менің — Қазақстаным!
+
+<b>II</b>
+Ұрпаққа жол ашқан,
+Кең байтақ жерім бар.
+Бірлігі жарасқан,
+Тәуелсіз елім бар.
+Қарсы алған уақытты,
+Мәңгілік досындай.
+Біздің ел бақытты,
+Біздің ел осындай!
+
+(𝄆) <b>Қайырмасы</b> (𝄇)
+                        </pre></th>
+                        <th><pre>
+<b>I</b>
+Altyn kün aspany,
+Altyn dän dalasy,
+Erlıktıñ dastany –
+Elıme qaraşy!
+Ejelden er degen,
+Dañqymyz şyqty ğoi,
+Namysyn bermegen,
+Qazağym myqty ğoi!
+
+<b>Qaiyrmasy:</b>
+Menıñ elım, menıñ elım,
+Gülıñ bolyp egılemın,
+Jyryñ bolyp tögılemın, elım!
+Tuğan jerım menıñ — Qazaqstanym!
+
+<b>II</b>
+Ūrpaqqa jol aşqan,
+Keñ baitaq jerım bar.
+Bırlıgı jarasqan,
+Täuelsız elım bar.
+Qarsy alğan uaqytty,
+Mäñgılık dosyndai.
+Bızdıñ el baqytty,
+Bızdıñ el osyndai!
+
+(𝄆) <b>Qaiyrmasy</b> (𝄇)
+                        </pre></th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- Footer -->
+        <section>
+            <p>
+                <span style="float: left;">Version: 1.0.8</span>
+                <span style="float: right;">Created by <a href="https://inzgiba.me/">InzGIBA</a></span>
+                <span class="clearfix"></span>
+            </p>
+            <p>
+                <span><a href="#menu">Go to Top</a></span>
+            </p>
+        </section>
+    </div>
+    <script defer src="//metrics.inzgiba.space/metro" data-website-id="feaf3a4f-7d8c-46f7-a3ec-80ee00a8a359"></script>
+</body>
+</html>
